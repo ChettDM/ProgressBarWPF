@@ -6,9 +6,9 @@
         xmlns:local="clr-namespace:PrgressBarWPF"
         xmlns:componentModel="clr-namespace:System.ComponentModel;assembly=System"
         mc:Ignorable="d"
+        Name="MainWindowControl"
         Title="MainWindow" Height="450" Width="800" >
     <Grid>
-
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
@@ -36,6 +36,6 @@
                      Maximum="100"
                      Height="20"
                      Name="Progress"/>
-        
+
     </Grid>
 </Window>
